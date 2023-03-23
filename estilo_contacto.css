@@ -1,0 +1,149 @@
+header
+{
+    background-color: lightgray;
+    padding: 20px 0;
+}
+
+.caja
+{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+    //porque la mayoría de páginas ocupan resolución de 1280px
+}
+nav
+{
+    position: absolute;
+    top: 110px;
+    right: 2px;
+
+}
+
+nav li
+{
+    display: inline;
+}
+
+a
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 0 0 15px;
+    font-size: 22px;
+    font-weight: bold;
+    
+
+}
+
+a:hover
+{
+    color:rgb(143, 135, 31);
+    text-decoration: underline;
+    
+}
+
+main
+{
+padding-top: 40px;
+width: 940px;
+margin: 0 auto;
+}
+
+form label
+{
+    display: block;
+    margin: 0 0 10px 0;
+}
+
+.formulario
+{
+    display: block;
+    margin: 0 0 20px 0;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+footer
+{
+    text-align: center;
+    background-color: gray;
+    padding:40px;
+    margin-top: 50px;
+    margin-bottom: auto;
+    
+}
+
+.derechos
+{
+    color: white;
+    padding-bottom: 20px;
+    font-size: 15px;
+    margin:0;
+}
+
+textarea
+{
+    margin-bottom: 20px;
+}
+
+.pregunta
+{
+    margin-bottom: 10px;
+    
+}
+
+.opciones
+{
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+.novedades
+{
+    margin-top: 20px;
+}
+
+.tiempo-cita
+{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.send
+{
+    width: 40%;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: orange;
+    border: none;
+    transition: 1s all;
+}
+
+.send:hover
+{
+    cursor: pointer;
+    background-color: orangered;
+    transform: scale(1.1);
+}
+
+table
+{
+    
+    margin: 20px 20px;
+    margin-left: 100px;
+}
+
+th,td
+{
+    padding: 10px 10px;
+    border: 1px solid black;
+}
+
+th
+{
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+}
